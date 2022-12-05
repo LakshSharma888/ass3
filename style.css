@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 25px;
+    display: flex;
+    margin: 5px 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 5px 10px;
+}
+a{
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.858);
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.nav_icons{
+    text-align: center;
+}
+.nav_boxs{
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    background-color: rgba(107, 107, 107, 0.185);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px 1px;
+    cursor: pointer;
+}
+.nav_boxs:hover{
+    background-color: orange;
+}
+.container1{
+    margin-top: 120px;
+}
+.container2{
+width: 100%;
+height: 50vh;
+/* border: 2px solid red; */
+background: url('https://www.nutriapt.com/images/banner1.jpg');
+text-align: center;
+/* line-height: 40px; */
+}
+.container2 h3{
+    padding-top: 80px;
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 20px;
+
+}
+.container2 p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: rgba(43, 43, 43, 0.811);
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.527);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+}
+.container2 span{
+    color: orange;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.container3{
+    width: 100%;
+    height: 60vh;
+    /* background-color: grey; */
+    /* border: 2px solid red; */
+    background-color: rgba(211, 210, 210, 0.484);
+    margin-bottom: 0px;
+}
+.container3 p{
+    margin-top: 20px;
+}
+.container3 h6{
+    font-size: 15px;
+}
+
+.one{
+    
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+
+}
+
+.testimonial{
+    margin-top: 20px;
+    width: 80%;
+    height: 230px;
+    border: 2px solid black;
+    margin-left: 130px;
+    text-align: center;
+    line-height: 25px;
+}
+.photo{
+    margin-left: 450px;
+    margin-top: 20px;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zayn_Wiki_%28cropped%29.jpg/330px-Zayn_Wiki_%28cropped%29.jpg');
+background-repeat: no-repeat;
+width: 90px;
+height: 90px;
+background-position: center;
+background-size: 90px;
+border-radius: 50%;
+}
+.container4{
+    width: 100%;
+    height: 90vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(211, 210, 210, 0.484);
+}
+.row{
+    display: flex;align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.row .images-1{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-image: url('https://staticfanpage.akamaized.net/wp-content/uploads/sites/22/2018/12/vegetables.jpg');
+}
+.row .images-2{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-image: url('https://staticfanpage.akamaized.net/wp-content/uploads/sites/22/2018/06/istock-637272192.jpg');
+}
+.row .images-3{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-image: url('https://staticfanpage.akamaized.net/wp-content/uploads/sites/22/2018/06/istock-485277300.jpg');
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.information{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+hr{
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 20px;
+    
+}
+.container4 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn-2{
+    margin-left: 20px;
+}
+.container4 p{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+.col-3{
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgba(46, 46, 46, 0.308);
+}
+.foot {
+    display : grid;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    color:rgb(145, 144, 144);
+}
+.foot .cont1 .grofer{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .cont1 .contact{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .cont1 .contact{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .cont1 .icon .a{
+    color:black;
+}
+.foot .cont2 ul{
+    list-style-type: none;
+}
+.foot .cont3 ul{
+    list-style-type: none;
+}
